@@ -1,0 +1,9 @@
+fitz
+llama-index
+google-genai
+dotenv
+google-cloud-bigquery
+langgraph
+# Credentials saved to file: [C:\Users\Nandini\AppData\Roaming\gcloud\application_default_credentials.json]
+mcp
+streamlit
