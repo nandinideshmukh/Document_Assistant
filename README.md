@@ -132,3 +132,7 @@ python mcp_protocol/mcp_server.py
 ```
 streamlit run app/streamlit_app.py
 ```
+
+# Output
+![Screenshot](assets/tt1.png)
+![Screenshot](assets/tt2.png)
