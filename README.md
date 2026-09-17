@@ -10,7 +10,8 @@ This project is a **production-style Retrieval-Augmented Generation (RAG) system
 The system uses:
 - **Google Gemini** for embeddings and answer generation  
 - **BigQuery Vector Search - data warehouse** as the vector database  
-- **LangGraph** for deterministic RAG orchestration  
+- **LangGraph** for deterministic RAG orchestration
+- **Top K** Relevance is ordered by cosine similarity ( cos (0) = 1 identical ) 
 - **MCP (Model Context Protocol)** to expose RAG as a tool  
 - **Streamlit** for an interactive chat UI  
 
@@ -31,12 +32,13 @@ Embedding (Gemini)
 ↓
 BigQuery Vector Store
 ↓
-
 User Question
 ↓
 Query Embedding (Gemini)
 ↓
-Vector Similarity Search (BigQuery)
+Vector Similarity Search (BigQuery) 
+↓
+Top K fetched
 ↓
 Context Injection
 ↓
